@@ -310,7 +310,7 @@ The motion planning module was used to evaluate:
 
 The planned drilling poses were successfully imported into the robotic framework and visualized through Foxglove Studio.
 
-<img src="kinematic_simulation.png"/>
+<img src="part of data.png"/>
 
 
 ---
