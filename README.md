@@ -14,15 +14,8 @@ Unlike structured industrial environments, tunnel faces are highly irregular, co
 During my internship at a tunnel drilling equipment company, I identified this challenge and independently developed a multimodal intelligent drilling framework.
 
 The system establishes a complete pipeline:
-3D Perception
-↓
-Drilling Point Planning
-↓
-MWD-based Condition Monitoring
-↓
-Robot Kinematic Verification
-↓
-ROS2 Visualization
+
+<img src="system_architecture.png"/>
 
 The project was developed using real industrial data, including:
 
@@ -34,9 +27,9 @@ No public dataset or simulated-only environment was used.
 
 ---
 
-# System Architecture
 
-![System Architecture](images/system_architecture.png)
+
+
 
 The proposed framework contains four major components:
 
@@ -124,6 +117,7 @@ Original data:
 
 
 ![Point Cloud Processing](images/pointcloud_processing.png)
+<img src="
 
 
 ## Processing Pipeline
