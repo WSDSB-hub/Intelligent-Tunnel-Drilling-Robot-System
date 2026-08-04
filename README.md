@@ -297,6 +297,22 @@ The robot model was successfully visualized with joint motion control.
 <img src="ros2_visualization.png"/>
 
 
+# 6.Motion Planning Validation with MoveIt 2
+
+
+To verify whether the planned drilling points can be executed by the robotic system, the drilling arm model was integrated into ROS2 Humble and MoveIt 2.
+
+The motion planning module was used to evaluate:
+
+- Joint configuration feasibility
+- End-effector target reaching
+- Collision-free trajectory generation
+
+The planned drilling poses were successfully imported into the robotic framework and visualized through Foxglove Studio.
+
+<img src="kinematic_simulation.png"/>
+
+
 ---
 
 # Engineering Challenges
