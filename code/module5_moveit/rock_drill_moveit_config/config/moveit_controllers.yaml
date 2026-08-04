@@ -1,0 +1,12 @@
+controller_names:
+  - fake_controller
+
+fake_controller:
+  type: FollowJointTrajectory
+  joints:
+    - base_pitch_joint
+    - boom_pitch_joint
+    - swing_joint
+    - feed_rot_joint
+    - feed_prismatic_joint
+

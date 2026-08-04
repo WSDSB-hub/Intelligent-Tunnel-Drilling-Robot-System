@@ -1,0 +1,40 @@
+planner_configs:
+  SBLkConfigDefault:
+    type: GeometricStateValidityChecker
+  ESTkConfigDefault:
+    type: GeometricStateValidityChecker
+  LBKPIECEkConfigDefault:
+    type: GeometricStateValidityChecker
+  BKPIECEkConfigDefault:
+    type: GeometricStateValidityChecker
+  KPIECEkConfigDefault:
+    type: GeometricStateValidityChecker
+  RRTkConfigDefault:
+    type: GeometricStateValidityChecker
+  RRTConnectkConfigDefault:
+    type: GeometricStateValidityChecker
+  RRTstarkConfigDefault:
+    type: GeometricStateValidityChecker
+  TRRTkConfigDefault:
+    type: GeometricStateValidityChecker
+  PRMkConfigDefault:
+    type: GeometricStateValidityChecker
+  PRMstarkConfigDefault:
+    type: GeometricStateValidityChecker
+  FMTkConfigDefault:
+    type: GeometricStateValidityChecker
+arm_group:
+  default_planner_config: RRTConnectkConfigDefault
+  planner_configs:
+    - SBLkConfigDefault
+    - ESTkConfigDefault
+    - LBKPIECEkConfigDefault
+    - BKPIECEkConfigDefault
+    - KPIECEkConfigDefault
+    - RRTkConfigDefault
+    - RRTConnectkConfigDefault
+    - RRTstarkConfigDefault
+    - TRRTkConfigDefault
+    - PRMkConfigDefault
+    - PRMstarkConfigDefault
+    - FMTkConfigDefault

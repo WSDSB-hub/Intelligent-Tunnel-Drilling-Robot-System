@@ -1,0 +1,8 @@
+cartesian_limits:
+  arm_group:
+    max_trans_vel: 1.0
+    max_trans_acc: 1.0
+    max_trans_dec: 1.0
+    max_rot_vel: 1.0
+    max_rot_acc: 1.0
+    max_rot_dec: 1.0
