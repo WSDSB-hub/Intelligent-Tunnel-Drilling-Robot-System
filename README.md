@@ -14,7 +14,10 @@ Unlike structured industrial environments, tunnel faces are highly irregular, co
 During my internship at a tunnel drilling equipment company, I identified this challenge and independently developed a multimodal intelligent drilling framework.
 
 The system establishes a complete pipeline:
-<img src="system_architecture.png"/>
+
+
+<img src="system_architecture.png.png"/>
+
 
 The project was developed using real industrial data, including:
 
@@ -172,7 +175,7 @@ Six drilling states were recognized:
 - Jamming risk
 
 
-<img src="mwd_analysis.png"/>
+<img src="mwd_analysis.png.png"/>
 
 
 ---
