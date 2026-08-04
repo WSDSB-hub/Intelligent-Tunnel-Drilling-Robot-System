@@ -165,12 +165,17 @@ MWD data was obtained from industrial drilling sensors.
 The original data format was undocumented, therefore the file structure was manually analyzed and parsed.
 
 Processing pipeline:
+
 Raw MWD Data
-  ↓
+ ↓
 Signal Extraction
+ ↓
 Savitzky-Golay Filtering
+ ↓
 Feature Extraction
+ ↓
 State Classification
+ 
 
 
 Six drilling states were recognized:
