@@ -1,9 +1,7 @@
 # Multimodal Perception and Robotic Motion Planning for Intelligent Tunnel Drilling Automation
 An industrial robotic system integrating 3D perception, sensor-based condition monitoring, kinematic verification, and ROS2 visualization for autonomous tunnel drilling.
 
-# Multimodal Perception and Robotic Motion Planning for Intelligent Tunnel Drilling Automation
 
-An industrial robotic system integrating 3D perception, sensor-based condition monitoring, kinematic verification, and ROS2 visualization for autonomous tunnel drilling.
 
 ---
 
