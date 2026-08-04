@@ -14,7 +14,6 @@ Unlike structured industrial environments, tunnel faces are highly irregular, co
 During my internship at a tunnel drilling equipment company, I identified this challenge and independently developed a multimodal intelligent drilling framework.
 
 The system establishes a complete pipeline:
-
 <img src="system_architecture.png"/>
 
 The project was developed using real industrial data, including:
@@ -116,9 +115,8 @@ Original data:
 - Environment: irregular tunnel face
 
 
-![Point Cloud Processing](images/pointcloud_processing.png)
-<img src="
-
+<img src="initial.png"/>
+<img src="pointcloud_processing.png"/>
 
 ## Processing Pipeline
 
@@ -146,8 +144,7 @@ Final result:
 Generated drilling points: 161
 
 
-![Drilling Planning Result](images/drilling_points.png)
-
+<img src="drilling_points（2）.png"/>
 
 ---
 
@@ -175,7 +172,7 @@ Six drilling states were recognized:
 - Jamming risk
 
 
-![MWD Analysis](images/mwd_analysis.png)
+<img src="mwd_analysis.png"/>
 
 
 ---
@@ -218,7 +215,10 @@ Results:
 |Normal rock|0.80|
 
 
-![PointNet Result](images/pointnet_result.png)
+
+<img src="pointnet_result.png"/>
+<img src="loss_curve.png"/>
+
 
 
 ---
@@ -263,7 +263,8 @@ Reachable points:
 This experiment demonstrates the importance of considering robot execution constraints during planning.
 
 
-![Kinematic Simulation](images/kinematic_simulation.png)
+<img src="distance_optimization.png"/>
+<img src="kinematic_simulation.png"/>
 
 
 ---
@@ -289,7 +290,8 @@ Instead of abandoning visualization, a browser-based solution using foxglove_bri
 The robot model was successfully visualized with joint motion control.
 
 
-![ROS2 Visualization](images/ros2_visualization.png)
+
+<img src="ros2_visualization.png"/>
 
 
 ---
