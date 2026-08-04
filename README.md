@@ -437,3 +437,16 @@ Through this work, I explored how intelligent robotic systems can combine:
 
 
 The project strengthened my understanding of embodied intelligence and intelligent robotics, providing a foundation for future research in autonomous robotic systems.
+
+# Experimental Results
+
+
+| Module | Metric | Result |
+|---|---|---|
+| Point Cloud | Input Size | 7.06M points |
+| Planning | Generated Drilling Points | 161 |
+| PointNet | Defect IoU | 0.33 |
+| Rock Classification | Drilling States | 6 |
+| Reachability | Improvement | 3 → 31 points |
+| ROS2 | Motion Planning | Successful |
+
