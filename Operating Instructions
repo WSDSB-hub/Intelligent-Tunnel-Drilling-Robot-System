@@ -1,0 +1,36 @@
+# How to Run
+
+## 1. Point Cloud Processing
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run:
+
+python drilling_planner.py
+
+
+Output:
+
+- optimized point cloud
+- drilling coordinate file
+
+
+## 2. PointNet Training
+
+python train.py
+
+
+Output:
+
+- training curves
+- segmentation results
+
+
+## 3. ROS2 Simulation
+
+source /opt/ros/humble/setup.bash
+
+ros2 launch drilling_robot display.launch.py
