@@ -166,15 +166,8 @@ The original data format was undocumented, therefore the file structure was manu
 
 Processing pipeline:
 
-Raw MWD Data
- ↓
-Signal Extraction
- ↓
-Savitzky-Golay Filtering
- ↓
-Feature Extraction
- ↓
-State Classification
+<img src="Processing pipeline.drawio.png"/>
+ 
  
 
 
